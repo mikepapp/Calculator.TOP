@@ -1,0 +1,63 @@
+table{
+    background-color: grey;
+    width: 500px;
+    height: 600px;
+    transform: translate(700px , 70px);
+    border: black 30px solid ;
+    outline: none;
+    border-radius: 6%;
+    
+
+    
+}
+
+.td1{
+    background-color: black;
+    color:white;
+    text-align: right;
+    font-size: 40px;
+    border:grey 6px solid;
+    
+}
+
+td {
+    text-align: center;
+    
+    
+    
+    
+}
+
+button{
+    width: 100%;
+    height: 100%;
+    background-color:grey;
+    outline: none;
+    border: black 6px solid;
+    font-size: 30px;
+    border-radius: 30%;
+    color: #ffab40;
+    
+    
+}
+button:hover{
+
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px black;
+}
+
+.op , .eq{
+    background-color: #ffab40;
+    color: black;
+}
+
+body{
+    background-color:red;
+}
+
+h1{
+    display:flex;
+    justify-content: center;
+    color: black;
+    font-size: 50px;
+}
